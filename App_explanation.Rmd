@@ -1,0 +1,50 @@
+---
+title: "Shiny App explanation"
+author: "Polu Ashok Kumar Reddy Polu"
+date: "December 11, 2017"
+output: ioslides_presentation
+---
+
+## Purpose
+
+-predition of select real variable by selection top N regressors
+
+-Top N regressors are selected based on pvalue for dependent variable with each variable combination
+
+
+-This app display what are the top variables and predicted values
+
+## Unique built shiny features
+
+- user can select valid top N regressor (display number of variables based on uploaded data) 
+
+-user can load training data for model
+
+-user can load data for prediction
+
+-User can select required varible for prediction
+
+-User can upload any business problem data for prediction 
+
+
+
+
+## Assumptions
+
+-user uploaded data for prediction has same column as Training data
+
+-User uploaded clean training data
+
+-No outlier treatment will be done
+
+
+##Steps to Follow
+
+- Load Traing and Prediction data set
+
+-after loading user get option to select Top N Regressors for selection
+
+-select variable to be predicted
+
+-click Predict button
+
