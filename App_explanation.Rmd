@@ -9,7 +9,7 @@ output: ioslides_presentation
 
 -predition of select real variable by selection top N regressors
 
--Top N regressors are selected based on pvalue for dependent variable with each variable combination
+-Top N regressors are selected based on pvalue of linear regression for dependent variable with each variable combination
 
 
 -This app display what are the top variables and predicted values
